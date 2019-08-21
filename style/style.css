@@ -1,0 +1,178 @@
+/* Fundo e fonte padrão */
+body { 
+	background-color: #DFDFDF;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+/* Título principal - Cabeçalho */
+h1 { 
+	color: #305030;
+	background-color: #F3F3F3;
+	padding: 3px;	
+	letter-spacing: 1px;
+	font-variant: small-caps;
+	text-align: center;
+	margin: 0;
+	border-top: 2px solid #406040;
+	border-bottom: 2px solid #406040;	
+}
+
+h1:first-letter{
+	font-size: 125%;
+}
+
+/* Subtítulo */
+h2{
+	color: #305030;
+	background-color: #F3F3F3;
+	padding: 2px;
+	text-indent: 15px;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: 1px solid #406040;
+	border-bottom: 1px solid #406040;
+}
+
+h3{
+	color: #305030;
+	background-color: #F3F3F3;
+	text-indent: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Indentação do texto */
+p {
+	text-indent: 30px;
+}
+
+table {
+	border: 2px solid black;
+	text-align: center;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+table td{
+	border: 1px solid black;
+}
+
+table th{
+	background-color: #90B090;
+	border-bottom: 2px solid black;
+}
+
+/* Imagens sem bordas */
+img {
+	border: 0;
+}
+
+a:visited, a:link{
+	color: #202040;
+}
+
+a:hover{
+	color: #204020;
+}
+
+/*** Identificadores ***/
+
+/* Conteúdo centralizado*/
+#content{
+	background-color: #E7E7E7;
+	margin-left: 210px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Rodapé */
+#footer{
+	background-color: #F3F3F3;
+	padding: 5px;
+	font-size: 75%;
+	clear: both;
+	border-top: 1px solid #406040;
+	border-bottom: 1px solid #406040;
+}
+
+/* Logo*/
+#logo{
+	width: 250px;
+	height: 50px;
+	float: left;
+	margin: 2px;
+}
+
+/* Menu */
+ul#menu{ 
+	padding: 0;
+	list-style-type: none; 
+	background-color: transparent; 
+	width: 200px; 
+	float: left;
+	border-top: 1px solid #507050; 
+	margin-top: 10px; 
+	margin-bottom: 10px;
+}
+
+/* Elementos do menu */
+ul#menu li {
+	border-bottom: 1px solid #406040;
+	text-align: center;
+	border-left: 10px solid #90B090;
+	border-right: 10px solid #90B090; 
+}
+
+ul#menu li a{
+	text-decoration: none;
+	padding: 5px;
+	display: block;
+	font-weight: bold;
+} 
+
+/* Visualização padrão */
+ul#menu li a:visited, ul#menu li a:link{
+	background-color: #F3F3F3;
+	color: #305030;	
+}
+
+/* Ativação do menu */
+ul#menu li a:hover {
+	background-color: #305030; 
+	color: #F3F3F3;
+}
+
+/*** Classes ***/
+
+/* Separação em colunas */
+.column{
+	background-color: #E7E7E7;
+	min-height: 220px;
+}
+
+.column1{
+	background-color: #EBEBEB;
+	padding: 0;
+	width: 49%;
+	height: 100%;
+	float: left;
+}
+
+.column2{
+	background-color: #EBEBEB;
+	padding: 0;
+	width: 49%;
+	height: 100%;
+	float: right;
+}
+
+/* Ícones de validação*/
+.validator{
+	width: 88px;
+	height: 31px;	
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
